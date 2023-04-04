@@ -13,6 +13,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
     // See http://api.jquery.com/category/effects/ for this and
     // other effects you can use on a jQuery-wrapped html tag.
     blinkyDancer.$node.toggle();
+    // setTimeout (blinkyDance.step, timeBetweenSteps)
   };
 
   return blinkyDancer;
